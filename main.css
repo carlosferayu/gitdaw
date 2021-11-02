@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+
+.bg {
+  background: -webkit-gradient(linear, right top, left top, from(#6fe797), to(#74f3dc));
+  background: linear-gradient(270deg, #6fe797, #74f3dc);
+  background-attachment: fixed;
+}
+
+.right-side {
+  position: relative;
+  top: 14vh;
+  font-style: SF Pro;
+}
+
+.right-side .phrase {
+  font-family: Barlow;
+  color: #0a0a0a;
+  font-weight: bolder;
+  letter-spacing: -5px;
+  line-height: 1em;
+  font-size: 6vw;
+}
+
+.right-side .form-part {
+  font-family: SF Pro;
+  position: relative;
+  top: 8vh;
+}
+
+.right-side .form-part input, .right-side .form-part label {
+  margin-left: 4vh;
+}
+
+.right-side .form-part input {
+  padding: 10px;
+  width: 50%;
+  background-color: #fdfdfd57;
+  border-color: #177575;
+  font-weight: bolder;
+}
+
+.right-side .form-part button {
+  width: 50%;
+  margin-left: 4vh;
+  margin-top: 2vh;
+}
+
+.iphone {
+  position: absolute;
+  top: 10vh;
+  left: 40vh;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 40vh;
+  height: auto;
+  -webkit-user-drag: none;
+}
+
+.overall-content {
+  position: absolute;
+  top: 20.1vh;
+  left: 43.3vh;
+  background-color: #f3f3f3;
+  width: 33.4vh;
+}
+
+.upper-part {
+  margin: 0;
+  height: 2.5vh;
+  background-color: #ebebee;
+  font-family: SF Pro;
+  font-size: 0.7vw;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.upper-part #showTime {
+  font-family: SF Pro;
+  font-size: 0.8vw;
+}
+
+.add-part {
+  margin: 0;
+  font-size: 0.8vw;
+  height: 4vh;
+  background-color: #ebebee;
+}
+
+.add-part .fa-plus {
+  color: #38b7f1;
+  cursor: pointer;
+}
+
+.add-part .edit {
+  color: #38b7f1;
+  cursor: pointer;
+}
+
+.contacts-part {
+  margin: 0;
+  height: 8vh;
+  background-color: #ebebee;
+  font-family: SF Pro;
+  font-size: 2.2vw;
+  color: #0f0f0f;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.body-part {
+  margin: 0;
+  height: 45.4vh;
+  font-size: 0.8vw;
+  font-family: SF Pro;
+  overflow-y: auto;
+}
+
+.body-part .fa-sim-card {
+  font-size: 0.7vw;
+}
+
+.body-part .avatar {
+  width: 4vh;
+  margin-left: -5px;
+  height: auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-user-drag: none;
+}
+
+.body-part .contact-info {
+  font-size: 0.7vw;
+}
+
+.body-part .fa-info-circle {
+  font-size: 1vw;
+  color: #38b7f1;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(235, 235, 238, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #afafaf;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8f8f8f;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #177575;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #177575;
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #177575;
+  outline: 0 none;
+}
+
+@font-face {
+  font-family: SF Pro;
+  src: url("../fonts/SF Pro Regular.ttf");
+}
+/*# sourceMappingURL=main.css.map */
