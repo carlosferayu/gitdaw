@@ -1,0 +1,187 @@
+body{
+	background-image:url('https://th.bing.com/th/id/OIP.bU1T_gmafQqEF8-fbgh51AHaE7?w=268&h=180&c=7&o=5&pid=1.7');
+  	background-color: black;
+	background-size:100%;
+  	background-repeat: no-repeat;
+	font-family: Verdana, sans-serif;
+}
+#h1{
+	font-size:40px;
+	text-align:center;
+	color:white;
+	background-image:url('https://th.bing.com/th/id/OIP.qIQhdeUc7UMom4qQOwBmpAHaD9?w=282&h=180&c=7&o=5&pid=1.7');
+	width:35%;
+	border-left: 10px solid pink;
+	border-bottom: 2px solid purple;
+}
+.tab{
+  	float: left;
+  	border: 3px solid white;
+  	width: 15%;
+}
+.tab button{
+  	background-image:url('https://th.bing.com/th/id/OIP.mhbJ6tIpp6PQCMRqMxPQTgHaEK?w=276&h=180&c=7&o=5&pid=1.7');
+  	color:lightgreen;
+	padding: 10px;
+  	width: 100%;
+  	text-align: left;
+  	cursor: pointer;
+  	font-size: 25px;
+}
+.contenido1{
+	margin-left:15px;
+ 	float:left;
+ 	padding: 10px;
+ 	border: 2px solid black;
+	background-image:url('https://th.bing.com/th/id/OIP.Wc1DmHd9eR07QraRlnab3QHaEO?w=297&h=183&c=7&o=5&pid=1.7');
+ 	width: 50%;
+	background-size:100%;
+  	background-repeat: no-repeat;
+ 	height: 250px;
+  	display: none;
+
+}
+legend{
+	text-align: center;
+	background-color:aqua;
+	border:2px solid black;
+	color:black;
+}
+fieldset{
+	border:2px solid black;
+	border-collapse:collapse;
+	background-color:darkblue;
+}
+table{
+	border:2px solid black;
+	font-size:15px;
+	text-align:center;
+	width:100%;
+	background-color:white;
+	color:black;
+}
+.enviar{
+	background-color:black;
+	color:white;
+}
+.contenido2{
+	margin-left:15px;
+	float:left;
+ 	padding: 10px;
+ 	border: 2px solid black;
+	background-image:url('https://th.bing.com/th/id/OIP.Wc1DmHd9eR07QraRlnab3QHaEO?w=297&h=183&c=7&o=5&pid=1.7');
+ 	width: 80%;
+	background-size:100%;
+  	background-repeat: no-repeat;
+ 	height: 430px;
+  	display: none;
+
+}
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+video{ 
+	width:25%;
+	margin-left:10px;
+}
+.contenido3{
+	margin-left:15px;
+ 	float:left;
+	text-align:center;
+	padding:30px;
+ 	border: 2px solid black;
+	background-image:url('https://th.bing.com/th/id/OIP.Wc1DmHd9eR07QraRlnab3QHaEO?w=297&h=183&c=7&o=5&pid=1.7');
+ 	width: 15%;
+	background-size:100%;
+ 	height: 140px;
+  	display: none;
+
+}
+a{
+	font-size:20px;
+	color:aqua;
+} 
+h2{
+	text-align:center;
+}     
+#seccion1{
+	color:red;
+	margin-top:850px;
+	font-size:20px;
+	background-image:url('https://wallpaperaccess.com/full/3487.jpg');
+	background-size:100%;
+}
+
+#seccion2{
+	color:orange;
+	margin-top:50px;
+	font-size:20px;
+	background-image:url('https://wallpapercave.com/wp/wp2205901.jpg');
+	background-size:85%;
+}
+#seccion3{
+	color:lightblue;
+	margin-top:50px;
+	font-size:20px;
+	background-image:url('https://wallpaperaccess.com/full/1618214.jpg');
+	background-size: 100%;
+}
+iframe{
+	height:400px;
+	width:50%;
+	margin-left:25%;
+}
+img{
+	width:30%;
+}
