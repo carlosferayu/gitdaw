@@ -10,11 +10,25 @@
         <title>Untitled Document | Skeleton CSS</title>
     </head>
     <body>
-        <form name=fLogin method=POST action="index.php">
-            usuario: <input type=text name=nombre>
-            contraseña: <input type="password" name="clave" required>
-            repetir contraseña: <input type="password" name="clave2" required>
-            <input type="submit" name="registrar" value="registrar">
-        </form>
+        <?php
+        
+        echo"<form name=fLogin method=POST action=index.php>";
+        echo "usuario: <input type=text name=nombre required>";
+        echo "contraseña: <input type=password name=clave required>";
+        echo "repetir contraseña: <input type=password name=clave2 required>";
+        echo "<input type=submit name=registrar value=registrar>";
+        echo "</form>";
+        
+        if(isset($_POST['registrar'])){
+            if($_POST['clave']==$_POST['clave2']){
+                session_start();
+                $_SESSION['usuario']=$_POST['nombre'];
+                $_SESSION['contra']=$_POST['clave'];
+            }else{
+
+            }
+        }
+
+        ?>
     </body>
 </html>
