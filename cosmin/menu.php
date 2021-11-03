@@ -18,7 +18,7 @@
                         <b class="text-danger">Le atiende: </b>
                         <?php
                             $sW = $_POST['sendWorker'];
-
+                            //Comentario de clara
                             echo $sW;
                         ?>
                     </div>
