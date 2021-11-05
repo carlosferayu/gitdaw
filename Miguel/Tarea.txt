@@ -1,1 +1,0 @@
-Escribe bien el nombre del mes en el calendario
